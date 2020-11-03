@@ -1,0 +1,23 @@
+{
+  "name": "@my-username/fullheightslider",
+  "version": "0.1.0",
+  "description": "Full Height JavaScript  Slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdesero/FullHeightSlider.js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdesero/FullHeightSlider.js/issues"
+  },
+  "homepage": "https://github.com/tdesero/FullHeightSlider.js#readme"
+}
