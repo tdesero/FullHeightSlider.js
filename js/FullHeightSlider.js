@@ -1,5 +1,5 @@
 
-class FullHeightSlider {
+export class FullHeightSlider {
   constructor(options = {}) {
       this.onNextSlide = options.onNextSlide ? options.onNextSlide : undefined,
       this.onPrevSlide = options.onPrevSlide ? options.onPrevSlide : undefined,

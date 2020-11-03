@@ -1,8 +1,8 @@
 {
-  "name": "@my-username/fullheightslider",
+  "name": "@tdesero/fullheightslider",
   "version": "0.1.0",
   "description": "Full Height JavaScript  Slider",
-  "main": "index.js",
+  "main": "js/FullHeightSlider.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

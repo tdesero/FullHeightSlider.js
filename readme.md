@@ -15,6 +15,7 @@ required markup:
     </div>
 </div>
 ```
+import style.css from node_modules/@tdesero/fullheightslider
 
 initializing with:
 
