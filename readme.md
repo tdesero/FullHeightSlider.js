@@ -1,6 +1,7 @@
 required markup:
 
-`<div id="fullscreen-slide-container">
+```
+<div id="fullscreen-slide-container">
     <div class="fullscreen-slide">
       Slide1
     </div>
@@ -12,12 +13,15 @@ required markup:
     </div>
     <div class="fullscreen-slider-nav">
     </div>
-</div>`
+</div>
+```
 
 initializing with:
 
-`const slider = new FullHeightSlider({
-      freezeTime: 1500
-  });
+```
+const slider = new FullHeightSlider({
+  freezeTime: 1500
+});
 
-  slider.init();`
+slider.init();
+```
