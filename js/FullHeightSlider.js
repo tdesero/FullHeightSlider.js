@@ -7,9 +7,13 @@ export class FullHeightSlider {
       this.onLeave= options.onLeave ? options.onLeave : undefined,
       this.freezeTime = options.freezeTime ? options.freezeTime : 1500; /* in ms */
 
-      this.container = document.querySelector('#fullscreen-slide-container');
-      this.slides = this.container.querySelectorAll('.fullscreen-slide');
-      this.nav = this.container.querySelector('.fullscreen-slider-nav');
+      this.containerSelector = options.containerSelector || '#fullscreen-slide-container';
+      this.slideSelector = options.slideSelector || '.fullscreen-slide';
+      this.navSelector = options.navSelector || '.fullscreen-slider-nav';
+
+      this.container = document.querySelector(this.containerSelector);
+      this.slides = this.container.querySelectorAll(this.slideSelector);
+      this.nav = this.container.querySelector(this.navSelector);
       this.navDots = [];
       this.active = 0; /* index of active: first one is active */
       this.freeze = false;
